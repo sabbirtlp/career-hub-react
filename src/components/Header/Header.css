@@ -1,0 +1,16 @@
+.gradient_text{
+    background: -webkit-linear-gradient(#7E90FE, #9873FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.active {
+    background: -webkit-linear-gradient(#7E90FE, #9873FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.gradient_text_hover a:hover{
+    background: -webkit-linear-gradient(#7E90FE, #9873FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
