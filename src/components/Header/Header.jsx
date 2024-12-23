@@ -34,7 +34,7 @@ const Header = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-4xl text-black">Career<span className="gradient_text">Hub</span></a>
+                <a className="btn btn-ghost text-2xl md:text-4xl text-black">Career<span className="gradient_text">Hub</span></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 font-semibold text-lg text-[#757575] gradient_text_hover">

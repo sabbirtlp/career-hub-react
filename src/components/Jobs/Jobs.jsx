@@ -15,7 +15,7 @@ const Jobs = () => {
         
         <section className="py-[100px] bg-[#fff]">
             <div className=" container mx-auto text-center">
-                <div className="grid md:grid-cols-2 grid-cols-1 gap-4 mx-auto w-9/12">
+                <div className="grid md:grid-cols-2 grid-cols-1 gap-4 mx-auto md:w-9/12">
                     {
                         jobs.slice(0, dataLength).map(job => <Job key={job.id} job={job}></Job>)
                     }

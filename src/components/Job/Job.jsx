@@ -15,7 +15,7 @@ const Job = ({ job }) => {
                 />
             </figure>
             <div className="flex flex-col gap-3">
-                <h2 className="card-title text-2xl font-bold mt-3">{job_title}</h2>
+                <h2 className="card-title text-left text-2xl font-bold mt-3">{job_title}</h2>
                 <p className="text-left text-xl font-semibold">{company_name}</p>
                 
                 {/* JobType Box */}
